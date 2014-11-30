@@ -14,3 +14,7 @@ Features
 * Set the **Roughness** between 0 (none) and 1 (full). I suggest you limit this value to around 0.1 or 0.2.
 * Set the **Divisions** parameter to change the number of iterations of the diamond-square algorithm. Note that this will exponentially increase the number of polygons in the terrain mesh.
 * The Diamond-Square SOP will automatically add UV texture coordinates to its output geoemtry.
+
+Screenshot
+----------
+![Screenshot of Diamond-Square SOP in Houdini](screenshot.png)
