@@ -4,10 +4,6 @@
 #include <boost/random/mersenne_twister.hpp>
 #include <boost/random/uniform_real_distribution.hpp>
 
-int main() {
-
-}
-
 Grid::Grid(float width, float length, int segs)
     : _width(width), _length(length), _widthSegs(segs), _lengthSegs(segs), _widthVtex(segs + 1), _lengthVtex(segs + 1)
 {
